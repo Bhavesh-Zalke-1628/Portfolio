@@ -1,10 +1,14 @@
 import React from 'react'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
 
-function Container() {
+function Container({ children }) {
     return (
-        <div>
-            container
-        </div>
+        <>
+            <Header />
+            {children}
+            <Footer />
+        </>
     )
 }
 
