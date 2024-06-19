@@ -12,18 +12,19 @@ const Header = () => {
                             </div>
                         </button>
                         <div class="hidden lg:block">
-                            <ul class="flex space-x-10 text-base font-bold text-black/60 dark:text-white">
+                            <ul class=" cursor-pointer flex space-x-10 text-base font-bold text-black/60 dark:text-white">
                                 <li
                                     class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
                                     <a href="#">Home</a>
                                 </li>
                                 <li
                                     class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
-                                    <a href="#">Our services</a>
+                                    <a href="#">Skills</a>
                                 </li>
                                 <li
-                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
-                                    <a href="#">About</a>
+                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear"
+                                >
+                                    About
                                 </li>
                                 <li
                                     class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
